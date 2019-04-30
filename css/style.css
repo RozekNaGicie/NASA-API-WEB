@@ -1,0 +1,59 @@
+body {
+    z-index: -2;
+    background: #0B121D;
+    color: #fff;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formCenter>* {
+    margin: 10px;
+}
+
+.video {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+}
+
+.border {
+    height: 50vh;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.border:hover {
+    -webkit-transition: transform 0.75s ease-in-out;
+    transform: scale(1.5);
+    z-index: 3;
+    cursor: pointer;
+
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.articleContainer > button {
+    margin: 5px;
+}
